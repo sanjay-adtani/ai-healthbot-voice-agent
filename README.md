@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# 🩺 AI HealthBot Voice Agent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent, voice-enabled AI HealthBot that allows users to **speak directly** with a virtual **General Physician AI doctor** for basic health advice and symptom assessments.
 
-Currently, two official plugins are available:
+Built using **React + TypeScript + Vite**, this app integrates **Vapi.ai** with **AssemblyAI** (for speech recognition) and **Google Gemini** (for AI-driven responses).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🎙️ **Voice-enabled Chat**: Speak to the AI doctor and get instant, natural responses.
+- 👨‍⚕️ **General Physician AI**: Tailored to handle basic health inquiries and symptoms.
+- ⚡ **Real-time Transcription**: Converts your speech to text using AssemblyAI.
+- 🤖 **Context-Aware Responses**: Powered by Google Gemini's multimodal intelligence.
+- 🚀 **Fast & Lightweight**: Built with Vite for optimal performance.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Tool/Library     | Description                         |
+|------------------|-------------------------------------|
+| React + TypeScript | Modern frontend framework           |
+| Vite             | Lightning-fast build tool           |
+| Vapi.ai          | AI voice agent platform             |
+| AssemblyAI       | Speech-to-text transcription        |
+| Google Gemini    | AI/LLM for medical dialogue         |
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📫 Contact
+
+Feel free to reach out for collaboration, feedback, or questions!
+
+- 👤 **Author**: [Sanjay Adtani](https://github.com/sanjay-adtani)
+- 📧 **Email**: sanjay.adtani01@gmail.com
+- 💼 **LinkedIn**: [linkedin.com/in/sanjayadtani](https://www.linkedin.com/in/sanjayadtani)
+
+## 🧪 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/sanjay-adtani/ai-healthbot-voice-agent.git
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
