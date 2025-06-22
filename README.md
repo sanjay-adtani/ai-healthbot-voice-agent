@@ -28,6 +28,16 @@ Built using **React + TypeScript + Vite**, this app integrates **Vapi.ai** with 
 
 ---
 
+## 🎯 Set Up Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+
+```env
+# 🧠 Vapi.ai API Key and assitant id
+VITE_VAPI_API_KEY=PASTE_YOUR_KEY
+VITE_VAPI_ASSISTANT_ID=PASTE_YOUR_ASSISTANT_ID
+```
+
 ## 📫 Contact
 
 Feel free to reach out for collaboration, feedback, or questions!
