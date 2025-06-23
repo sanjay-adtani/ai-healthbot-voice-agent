@@ -6,6 +6,12 @@ Built using **React + TypeScript + Vite**, this app integrates **Vapi.ai** with 
 
 ---
 
+## 📷 Live Demo
+
+- [Click here to check demo](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7342894270531448833)
+
+---
+
 ## 🧠 Features
 
 - 🎙️ **Voice-enabled Chat**: Speak to the AI doctor and get instant, natural responses.
